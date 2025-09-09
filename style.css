@@ -1,0 +1,161 @@
+/* General Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  line-height: 1.6;
+
+  background: #f9f9f9;
+
+  color: #333;
+
+  transition: background 0.3s, color 0.3s;
+
+  scroll-behavior: smooth;
+
+}
+
+/* Header */
+
+header {
+
+  text-align: center;
+
+  padding: 2rem;
+
+  background: #4cafef;
+
+  color: white;
+
+}
+
+header h1 {
+
+  font-size: 2.5rem;
+
+  margin-bottom: 0.5rem;
+
+}
+
+/* Navigation */
+
+nav {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 1.5rem;
+
+  padding: 1rem;
+
+  background: #222;
+
+}
+
+nav a {
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+nav button {
+
+  background: #444;
+
+  border: none;
+
+  color: white;
+
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+
+  border-radius: 6px;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 2rem;
+
+  max-width: 800px;
+
+  margin: auto;
+
+}
+
+h2 {
+
+  margin-bottom: 1rem;
+
+  color: #4cafef;
+
+}
+
+.project {
+
+  margin-bottom: 1rem;
+
+  padding: 1rem;
+
+  border-left: 4px solid #4cafef;
+
+  background: #f1f1f1;
+
+  border-radius: 6px;
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  padding: 1rem;
+
+  background: #222;
+
+  color: white;
+
+}
+
+/* Dark Mode */
+
+body.dark-mode {
+
+  background: #222;
+
+  color: #f9f9f9;
+
+}
+
+body.dark-mode nav {
+
+  background: #111;
+
+}
+
+body.dark-mode .project {
+
+  background: #333;
+
+}
